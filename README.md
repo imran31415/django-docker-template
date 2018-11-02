@@ -6,7 +6,7 @@
 
 Instructions:
 
-1. Clone this repo `git clone <url>`
+1. Clone this repo `git clone https://github.com/imran31415/django-docker-template.git`
 2. build: `docker-compose build`
 3. run: `docker-compose run`
 
