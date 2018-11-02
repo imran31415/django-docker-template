@@ -9,6 +9,8 @@ gunicorn= "==19.9.0"
 djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
+django-allauth = "*"
+django-rest-auth = "*"
 
 [dev-packages]
 
