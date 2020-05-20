@@ -1,10 +1,10 @@
 [[source]]
 url = "https://pypi.python.org/simple"
-verify_ssl = true
+verify_ssl = false
 name = "pypi"
 
 [packages]
-django = "==2.1.2"
+django = "==3.0.6"
 gunicorn= "==19.9.0"
 djangorestframework = "*"
 markdown = "*"

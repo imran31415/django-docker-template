@@ -7,8 +7,8 @@ while ! nc -z db 5432; do
 done
 
 echo "PostgreSQL started"
-
 python manage.py flush --no-input
+python manage.py migrate --fake-initial
 python manage.py migrate sites
 python manage.py migrate
 python manage.py collectstatic --no-input
