@@ -17,13 +17,14 @@
       `docker exec -it 1s2taxg python manage.py createsuperuser`.  
     - follow the prompts to create the super user. 
     - using the port shown in `docker ps` you can see the port mapping to login locally:  For example: 
-    ```
+
+```
     Imrans-Macbook-Pro-13-Retina:~ imran$ docker ps
 CONTAINER ID        IMAGE                                COMMAND                  CREATED             STATUS              PORTS                                                            NAMES
 7b503329ce45        django-docker-template_nginx         "nginx -g 'daemon of…"   15 minutes ago      Up 9 minutes        0.0.0.0:1337->80/tcp                                             django-docker-template_nginx_1
 c638bef87c0b        django-docker-template_web           "/usr/src/app/entryp…"   15 minutes ago      Up 9 minutes        8000/tcp                                                         django-docker-template_web_1
 124f41113864        postgres:10.5-alpine                 "docker-entrypoint.s…"   44 hours ago        Up 9 minutes        5432/tcp
-    ```
+ ```
  
 So with the above we can see the app at:
 
